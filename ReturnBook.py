@@ -6,7 +6,6 @@ import pymysql
 # Add your own database name and password here to reflect in the code
 mypass = "Abcd@123"
 mydatabase="debabrata"
-
 con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
 cur = con.cursor()
 
